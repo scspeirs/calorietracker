@@ -37,7 +37,7 @@ when "gain muscle"
   TDEEfactor = 1.1
 end
 
-weeklyCalories = (7 * TDEE)*(TDEEfactor)
-dailyCalories = (weeklyCalories/7)
+weeklyCalories = (7 * TDEE)*(TDEEfactor).round
+dailyCalories = (weeklyCalories/7).round
 
 puts "Your weekly calorie goal is #{weeklyCalories}. Your daily calorie goal is #{dailyCalories}."
